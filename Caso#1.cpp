@@ -14,7 +14,7 @@ Caso #1 - 5%
 //------------------------------------------------//
 
 /* 
-Ejercicio #1 Compare the triplets. Este primera funciÛn tiene 3 ciclos for con 6 comparaciones y 6 operaciones
+Ejercicio #1 Compare the triplets. Este primera funci√≥n tiene 3 ciclos for con 6 comparaciones y 6 operaciones
 y dos push_back al resultado.
 */
 vector<int> compareTheTriplets_1(vector<int> a, vector<int> b){
@@ -37,7 +37,7 @@ vector<int> compareTheTriplets_1(vector<int> a, vector<int> b){
 
 /*
 Ejercicio #1 Compare the triples MEJORADO. A diferencia del anterior cuenta con solo 3 comparaciones,con los if, 11
-operaciones en el peor de los casos y dos push_back al resultado. Por lo que considero que esta implementaciÛn 
+operaciones en el peor de los casos y dos push_back al resultado. Por lo que considero que esta implementaci√≥n 
 es mejor que la anterior pues evitamos el ciclo for y las comparaciones se reducen a la mitad. 
 */
 vector<int> compareTheTriplets_2(vector<int> a, vector<int> b){
@@ -71,7 +71,7 @@ vector<int> compareTheTriplets_2(vector<int> a, vector<int> b){
 
 /*
 Ejercicio #2 Time Conversion. En este ejercicio se hacen 3 comparaciones if , 2 operaciones y 2 substr.
-El primer problema es que tiene varias comparaciones que se podrÌan evitar.
+El primer problema es que tiene varias comparaciones que se podr√≠an evitar.
 */
 string timeConversion_1(string formatAP) {	
 	string format24h = formatAP.substr(2, 6); 
@@ -88,7 +88,7 @@ string timeConversion_1(string formatAP) {
 }
 
 /*
-Ejercicio #2, Time conversion MEJORADO. En esta otra version, tiene solo una comparaciÛn, por lo que se mejora mucho 
+Ejercicio #2, Time conversion MEJORADO. En esta otra version, tiene solo una comparaci√≥n, por lo que se mejora mucho 
 el ejercicio, tiene 4 operaciones y dos substr.
 */
 string timeConversion_2(string formatAP) {	
@@ -115,10 +115,10 @@ return suma;
 }
 
 /*
-Ejercicio 3, Subarray Division. Esta funcion tiene un ciclo while que ser· del tamaÒo del arreglo e iniciarÌa
-desde la posicion del mes.Tomando como ejemplo un arreglo de 5 y mes 2, esta funcion harÌa 4 cilos while, 8 ciclos for
-(creando los arreglos auxiliares) hace 4 comparacion y 12 operaciones. AÒadiendo la funcion que suma los array auxiliares
-que serÌan 8 ciclos for y 8 operaciones adicionales. Muy ineficiente.
+Ejercicio 3, Subarray Division. Esta funcion tiene un ciclo while que ser√° del tama√±o del arreglo e iniciar√≠a
+desde la posicion del mes.Tomando como ejemplo un arreglo de 5 y mes 2, esta funcion har√≠a 4 cilos while, 8 ciclos for
+(creando los arreglos auxiliares) hace 4 comparacion y 12 operaciones. A√±adiendo la funcion que suma los array auxiliares
+que ser√≠an 8 ciclos for y 8 operaciones adicionales. Muy ineficiente.
 */
 int subarrayDivision_1(int array[], int tamanno,  int mes, int dia){
 		
@@ -145,8 +145,8 @@ int subarrayDivision_1(int array[], int tamanno,  int mes, int dia){
 }
 
 /*
-Ejercicio #3 Subarray Division MEJORADO. En esta versiÛn, tomando el ejemplo anterior. Se harÌan solo 5 ciclos for
-dos comparaciones  y 10 operaciones. Por lo que estarÌa mejor implementado que el anterior.
+Ejercicio #3 Subarray Division MEJORADO. En esta versi√≥n, tomando el ejemplo anterior. Se har√≠an solo 5 ciclos for
+dos comparaciones  y 10 operaciones. Por lo que estar√≠a mejor implementado que el anterior.
 */
 int subarrayDivision_2(int a[], int t,  int mes, int dia){
 	
